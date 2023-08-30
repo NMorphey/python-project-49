@@ -20,9 +20,9 @@ def main():
                 correct_answer = 'no'
         playset = (question_number, correct_answer)
         playsets.append(playset)
-    
+
     play_a_game(game_rules, playsets)
-    
-        
+
+
 if __name__ == '__main__':
     main()

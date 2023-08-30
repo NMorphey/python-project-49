@@ -25,8 +25,9 @@ def main():
         question = f'{operand_1} {operator} {operand_2}'
         playset = (question, correct_answer)
         playsets.append(playset)
+
     play_a_game(game_rules, playsets)
-    
-        
+
+
 if __name__ == '__main__':
     main()
