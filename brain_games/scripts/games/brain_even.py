@@ -11,7 +11,7 @@ def main():
     MIN_RANDOM_NUMBER = 1
     MAX_RANDOM_NUMBER = 40
     playsets = []
-    for i in range(NUMBER_OF_ROUNDS):
+    for _ in range(NUMBER_OF_ROUNDS):
         question_number = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
         match (question_number % 2):
             case 0:

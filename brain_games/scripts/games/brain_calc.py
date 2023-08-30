@@ -11,7 +11,7 @@ def main():
     MIN_RANDOM_NUMBER = 1
     MAX_RANDOM_NUMBER = 40
     playsets = []
-    for i in range(NUMBER_OF_ROUNDS):
+    for _ in range(NUMBER_OF_ROUNDS):
         operand_1 = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
         operand_2 = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
         operator = choice(['+', '-', '*'])
