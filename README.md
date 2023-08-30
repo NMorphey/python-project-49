@@ -6,3 +6,5 @@
 [Click here to watch](https://asciinema.org/a/Izhu5dpBUSd5RfzRgrDvLuEth/)
 ### brain-calc game asciinema:
 [Click here to watch](https://asciinema.org/a/3N22CLAs5JEHqmj4ecXBo0YCD)
+### brain-gcd game asciinema:
+[Click here to watch](https://asciinema.org/a/vOd09iVkUIudgOwR7FNAHvQp4)
