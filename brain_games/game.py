@@ -8,7 +8,7 @@ def play_a_game(game_rules: str, playsets: list):
     print(game_rules)
     for playset in playsets:
         question = playset[0]
-        correct_answer = playset[1]
+        correct_answer = str(playset[1])
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:
