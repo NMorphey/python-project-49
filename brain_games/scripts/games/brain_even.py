@@ -2,8 +2,6 @@
 
 from random import randint
 
-import prompt
-
 from brain_games.game import play_a_game
 
 
