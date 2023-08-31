@@ -23,7 +23,7 @@ def main():
                             first_number + progression_len*step + 1,
                             step)
         progression = list(map(str, progression))
-        excluded_number_index = randint(1, progression_len - 2)
+        excluded_number_index = randint(0, progression_len - 1)
         excluded_number = progression[excluded_number_index]
         progression[excluded_number_index] = '..'
         question = ' '.join(progression)
