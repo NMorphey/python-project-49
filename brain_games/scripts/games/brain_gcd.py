@@ -16,7 +16,7 @@ def main():
         number_2 = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
         max_possible_divisor = min(number_1, number_2)
         correct_answer = 1
-        for i in range(2, max_possible_divisor + 1):
+        for i in range(max_possible_divisor, 1, -1):
             if number_1 % i == 0 and number_2 % i == 0:
                 correct_answer = i
         question = f'{number_1} {number_2}'
