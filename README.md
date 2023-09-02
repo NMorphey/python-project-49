@@ -18,9 +18,11 @@
 * **PIP compatible with your Python version, (21.2.3+ for Python 3.10)**
 ## How to install and run the games
 **To install the games, use following console command:**
+>
 > pip install --user git+https://github.com/NMorphey/python-project-49.git  
-After successful download, following commands become available: `brain-games`, `brain-even`, `brain-calc`, `brain-gcd`, `brain-progression`, `brain-prime`.  
-[Installation guide (asciinema)](https://asciinema.org/a/FwbJPeD759RtqdekNVMCqvwGK)
+>
+After successful download, following commands become available: `brain-games`, `brain-even`, `brain-calc`, `brain-gcd`, `brain-progression`, `brain-prime`.
+##### [Installation guide (asciinema)](https://asciinema.org/a/FwbJPeD759RtqdekNVMCqvwGK)
 #### brain-even game asciinema:
 [Click here to watch](https://asciinema.org/a/qEL7TggIN5tqCA6mBop2ZNTIT)
 #### brain-calc game asciinema:
