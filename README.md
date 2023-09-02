@@ -3,7 +3,7 @@
 ### Maintainability status:
 [![Maintainability](https://api.codeclimate.com/v1/badges/7eb1211020aaea7b9b83/maintainability)](https://codeclimate.com/github/NMorphey/python-project-49/maintainability)
 ### brain-even game asciinema:
-[Click here to watch](https://asciinema.org/a/Izhu5dpBUSd5RfzRgrDvLuEth/)
+[Click here to watch](https://asciinema.org/a/qEL7TggIN5tqCA6mBop2ZNTIT)
 ### brain-calc game asciinema:
 [Click here to watch](https://asciinema.org/a/3N22CLAs5JEHqmj4ecXBo0YCD)
 ### brain-gcd game asciinema:
