@@ -11,15 +11,15 @@
     * or multiplication
 * brain-gcd: find the greatest common divisor of two given numbers
 * brain-progression: find the number missing in an arithmetic progression
-* brain prime: determine if given number is prime or composite
+* brain prime: determine if given number is prime or composite  
 **To win any of the games, player must answer correct 3 times in a row. If given answer is incorrect, game ends with the player's loss.**
 ## Minimum requirements
 * **Python (version 3.10+)**
 * **PIP compatible with your Python version, (21.2.3+ for Python 3.10)**
 ## How to install and run the games
 **To install the games, use following console command:**
-> pip install --user git+https://github.com/NMorphey/python-project-49.git
-After successful download, following commands become available: `brain-games`, `brain-even`, `brain-calc`, `brain-gcd`, `brain-progression`, `brain-prime`.
+> pip install --user git+https://github.com/NMorphey/python-project-49.git  
+After successful download, following commands become available: `brain-games`, `brain-even`, `brain-calc`, `brain-gcd`, `brain-progression`, `brain-prime`.  
 [Installation guide (asciinema)](https://asciinema.org/a/FwbJPeD759RtqdekNVMCqvwGK)
 #### brain-even game asciinema:
 [Click here to watch](https://asciinema.org/a/qEL7TggIN5tqCA6mBop2ZNTIT)
