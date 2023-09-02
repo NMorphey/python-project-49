@@ -1,12 +1,22 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Brain-games is a set of 5 console games based on math"
 authors = ["Ivlev Nikita <thel4stofme@yandex.ru>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
+classifiers = [
+    Development Status :: 6 - Mature,
+    Environment :: Console,
+    Intended Audience :: Education,
+    License :: OSI Approved :: MIT License,
+    Natural Language :: English,
+    Operating System :: Unix,
+    Programming Language :: Python :: 3.10
+]
+repository = "https://github.com/NMorphey/python-project-49"
 
 [tool.poetry.dependencies]
 python = "^3.10"
