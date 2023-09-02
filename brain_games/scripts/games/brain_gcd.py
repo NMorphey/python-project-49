@@ -19,6 +19,7 @@ def main():
         for i in range(max_possible_divisor, 1, -1):
             if number_1 % i == 0 and number_2 % i == 0:
                 correct_answer = i
+                break
         question = f'{number_1} {number_2}'
         playset = (question, correct_answer)
         playsets.append(playset)
