@@ -22,7 +22,8 @@
 > pip install --user git+https://github.com/NMorphey/python-project-49.git  
 >
 After successful download, following commands become available: `brain-games`, `brain-even`, `brain-calc`, `brain-gcd`, `brain-progression`, `brain-prime`.
-##### [Installation guide (asciinema)](https://asciinema.org/a/FwbJPeD759RtqdekNVMCqvwGK)
+[Installation guide (asciinema)](https://asciinema.org/a/FwbJPeD759RtqdekNVMCqvwGK)
+## Gameplay examples
 #### brain-even game asciinema:
 [Click here to watch](https://asciinema.org/a/qEL7TggIN5tqCA6mBop2ZNTIT)
 #### brain-calc game asciinema:
