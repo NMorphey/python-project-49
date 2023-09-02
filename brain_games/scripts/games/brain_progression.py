@@ -20,7 +20,7 @@ def main():
         progression_len = randint(MIN_PROGRESSION_LEN, MAX_PROGRESSION_LEN)
         step = randint(MIN_STEP, MAX_STEP)
         progression = range(first_number,
-                            first_number + progression_len*step + 1,
+                            first_number + progression_len * step + 1,
                             step)
         progression = list(map(str, progression))
         excluded_number_index = randint(0, progression_len - 1)
