@@ -10,3 +10,5 @@
 [Click here to watch](https://asciinema.org/a/vOd09iVkUIudgOwR7FNAHvQp4)
 ### brain-progression game asciinema:
 [Click here to watch](https://asciinema.org/a/TZR1kXzQ6N8mbqSg4mdIiwG57)
+### brain-prime game asciinema:
+[Click here to watch](https://asciinema.org/a/KaTYq1GpmNKTilr5pjdnLuCmx)
