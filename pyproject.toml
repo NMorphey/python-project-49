@@ -8,13 +8,8 @@ packages = [
   { include = "brain_games" },
 ]
 classifiers = [
-    Development Status :: 6 - Mature,
-    Environment :: Console,
-    Intended Audience :: Education,
-    License :: OSI Approved :: MIT License,
-    Natural Language :: English,
-    Operating System :: Unix,
-    Programming Language :: Python :: 3.10
+    "Topic :: Software Development :: Build Tools",
+    "Topic :: Software Development :: Libraries :: Python Modules"
 ]
 repository = "https://github.com/NMorphey/python-project-49"
 
