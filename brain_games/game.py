@@ -16,11 +16,12 @@ game_rules = {
     'prime': 'Answer "yes" if given number is prime. Otherwise answer "no".',
     'progression': 'What number is missing in the progression?'
 }
-    
+
+
 def play_a_game(game_type: str):
     player_name = welcome_user()
     print(game_rules[game_type])
-    
+
     for _ in range(NUMBER_OF_ROUNDS):
         playset = get_playset(game_type)
         question = playset[0]
