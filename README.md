@@ -23,15 +23,16 @@
 >
 After successful download, following commands become available:  
 `brain-games`, `brain-even`, `brain-calc`, `brain-gcd`, `brain-progression`, `brain-prime`.  
-[Installation guide (asciinema)](https://asciinema.org/a/FwbJPeD759RtqdekNVMCqvwGK)
+#### Installation guide:
+[![asciicast](https://asciinema.org/a/FwbJPeD759RtqdekNVMCqvwGK.svg)](https://asciinema.org/a/FwbJPeD759RtqdekNVMCqvwGK)
 ## Gameplay examples
 #### brain-even game asciinema:
-[Click here to watch](https://asciinema.org/a/qEL7TggIN5tqCA6mBop2ZNTIT)
+[![asciicast](https://asciinema.org/a/qEL7TggIN5tqCA6mBop2ZNTIT.svg)](https://asciinema.org/a/qEL7TggIN5tqCA6mBop2ZNTIT)
 #### brain-calc game asciinema:
-[Click here to watch](https://asciinema.org/a/3N22CLAs5JEHqmj4ecXBo0YCD)
+[![asciicast](https://asciinema.org/a/3N22CLAs5JEHqmj4ecXBo0YCD.svg)](https://asciinema.org/a/3N22CLAs5JEHqmj4ecXBo0YCD)
 #### brain-gcd game asciinema:
-[Click here to watch](https://asciinema.org/a/vOd09iVkUIudgOwR7FNAHvQp4)
+[![asciicast](https://asciinema.org/a/vOd09iVkUIudgOwR7FNAHvQp4.svg)](https://asciinema.org/a/vOd09iVkUIudgOwR7FNAHvQp4)
 #### brain-progression game asciinema:
-[Click here to watch](https://asciinema.org/a/TZR1kXzQ6N8mbqSg4mdIiwG57)
+[![asciicast](https://asciinema.org/a/TZR1kXzQ6N8mbqSg4mdIiwG57.svg)](https://asciinema.org/a/TZR1kXzQ6N8mbqSg4mdIiwG57)
 #### brain-prime game asciinema:
-[Click here to watch](https://asciinema.org/a/KaTYq1GpmNKTilr5pjdnLuCmx)
+[![asciicast](https://asciinema.org/a/KaTYq1GpmNKTilr5pjdnLuCmx.svg)](https://asciinema.org/a/KaTYq1GpmNKTilr5pjdnLuCmx)
