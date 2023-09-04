@@ -7,6 +7,7 @@ MIN_RANDOM_NUMBER = -40
 MAX_RANDOM_NUMBER = 40
 DESCRIPTION = 'What is the result of the expression?'
 
+
 def get_playset():
     operand_1 = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
     operand_2 = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
