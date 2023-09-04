@@ -5,9 +5,10 @@ from random import randint
 
 MIN_RANDOM_NUMBER = 1
 MAX_RANDOM_NUMBER = 40
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 
-def get_brain_even_playset():
+def get_playset():
     question_number = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
     match (question_number % 2):
         case 0:

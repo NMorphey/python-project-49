@@ -14,9 +14,10 @@ def is_prime(number):
 
 MIN_RANDOM_NUMBER = 1
 MAX_RANDOM_NUMBER = 100
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
-def get_brain_prime_playset():
+def get_playset():
     question = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
     if is_prime(question):
         correct_answer = 'yes'

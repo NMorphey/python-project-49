@@ -5,9 +5,10 @@ from random import randint
 
 MIN_RANDOM_NUMBER = 1
 MAX_RANDOM_NUMBER = 100
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def get_brain_gcd_playset():
+def get_playset():
     number_1 = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
     number_2 = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
     max_possible_divisor = min(number_1, number_2)

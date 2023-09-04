@@ -9,9 +9,10 @@ MIN_PROGRESSION_LEN = 5
 MAX_PROGRESSION_LEN = 10
 MIN_STEP = 2
 MAX_STEP = 9
+DESCRIPTION = 'What number is missing in the progression?'
 
 
-def get_brain_progression_playset():
+def get_playset():
     first_number = randint(MIN_FIRST_NUMBER, MAX_FIRST_NUMBER)
     progression_len = randint(MIN_PROGRESSION_LEN, MAX_PROGRESSION_LEN)
     step = randint(MIN_STEP, MAX_STEP)
