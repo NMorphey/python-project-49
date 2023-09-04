@@ -3,14 +3,15 @@
 from random import randint
 
 
-def get_brain_progression_playset():
-    MIN_FIRST_NUMBER = 1
-    MAX_FIRST_NUMBER = 30
-    MIN_PROGRESSION_LEN = 5
-    MAX_PROGRESSION_LEN = 10
-    MIN_STEP = 2
-    MAX_STEP = 9
+MIN_FIRST_NUMBER = 1
+MAX_FIRST_NUMBER = 30
+MIN_PROGRESSION_LEN = 5
+MAX_PROGRESSION_LEN = 10
+MIN_STEP = 2
+MAX_STEP = 9
 
+
+def get_brain_progression_playset():
     first_number = randint(MIN_FIRST_NUMBER, MAX_FIRST_NUMBER)
     progression_len = randint(MIN_PROGRESSION_LEN, MAX_PROGRESSION_LEN)
     step = randint(MIN_STEP, MAX_STEP)

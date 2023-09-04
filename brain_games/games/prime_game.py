@@ -12,10 +12,11 @@ def is_prime(number):
     return True
 
 
-def get_brain_prime_playset():
-    MIN_RANDOM_NUMBER = 1
-    MAX_RANDOM_NUMBER = 100
+MIN_RANDOM_NUMBER = 1
+MAX_RANDOM_NUMBER = 100
 
+
+def get_brain_prime_playset():
     question = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
     if is_prime(question):
         correct_answer = 'yes'

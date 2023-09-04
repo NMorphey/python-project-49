@@ -3,10 +3,11 @@
 from random import randint
 
 
-def get_brain_even_playset():
-    MIN_RANDOM_NUMBER = 1
-    MAX_RANDOM_NUMBER = 40
+MIN_RANDOM_NUMBER = 1
+MAX_RANDOM_NUMBER = 40
 
+
+def get_brain_even_playset():
     question_number = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
     match (question_number % 2):
         case 0:
