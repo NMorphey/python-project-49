@@ -3,7 +3,7 @@
 from random import randint, choice
 
 
-MIN_RANDOM_NUMBER = 1
+MIN_RANDOM_NUMBER = -40
 MAX_RANDOM_NUMBER = 40
 DESCRIPTION = 'What is the result of the expression?'
 
