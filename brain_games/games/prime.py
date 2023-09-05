@@ -4,7 +4,7 @@ from random import randint
 
 
 def is_prime(number):
-    if number == 1:
+    if number <= 1:
         return False
     for i in range(2, int(number**0.5) + 1):
         if number % i == 0:
@@ -12,7 +12,7 @@ def is_prime(number):
     return True
 
 
-MIN_RANDOM_NUMBER = 1
+MIN_RANDOM_NUMBER = -5
 MAX_RANDOM_NUMBER = 100
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
