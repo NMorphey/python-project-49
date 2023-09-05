@@ -11,9 +11,7 @@ def play_a_game(game_module):
     print(game_module.DESCRIPTION)
 
     for _ in range(NUMBER_OF_ROUNDS):
-        playset = game_module.get_playset()
-        question = playset[0]
-        correct_answer = str(playset[1])
+        question, correct_answer = game_module.get_playset()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
         if answer == correct_answer:
