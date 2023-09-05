@@ -14,7 +14,7 @@ def play(game):
         question, correct_answer = game.get_playset()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
-        if answer == correct_answer:
+        if answer == str(correct_answer):
             print('Correct!')
         else:
             wrong_answer_text = 'is wrong answer ;(. Correct answer was'
