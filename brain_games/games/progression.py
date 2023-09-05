@@ -22,6 +22,5 @@ def get_playset():
     excluded_number = progression[excluded_number_index]
     progression[excluded_number_index] = '..'
     question = ' '.join(progression)
-    playset = (question, excluded_number)
 
-    return playset
+    return (question, excluded_number)
