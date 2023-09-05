@@ -3,6 +3,11 @@
 from random import randint
 
 
+MIN_RANDOM_NUMBER = -5
+MAX_RANDOM_NUMBER = 100
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
+
 def is_prime(number):
     if number <= 1:
         return False
@@ -10,11 +15,6 @@ def is_prime(number):
         if number % i == 0:
             return False
     return True
-
-
-MIN_RANDOM_NUMBER = -5
-MAX_RANDOM_NUMBER = 100
-DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def get_playset():
