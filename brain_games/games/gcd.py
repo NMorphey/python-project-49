@@ -16,10 +16,10 @@ def get_gcd(number_1, number_2):
 
 
 def get_playset():
-    number_1 = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
-    number_2 = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
-    correct_answer = get_gcd(number_1, number_2)
-    question = f'{number_1} {number_2}'
+    random_number_1 = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
+    random_number_2 = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
+    correct_answer = get_gcd(random_number_1, random_number_2)
+    question = f'{random_number_1} {random_number_2}'
     playset = (question, correct_answer)
 
     return playset
