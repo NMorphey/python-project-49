@@ -16,11 +16,11 @@ def is_prime(number):
 
 
 def get_playset():
-    question = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
-    if is_prime(question):
+    random_number = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
+    if is_prime(random_number):
         correct_answer = 'yes'
     else:
         correct_answer = 'no'
-    playset = (question, correct_answer)
+    playset = (random_number, correct_answer)
 
     return playset
