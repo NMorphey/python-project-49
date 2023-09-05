@@ -10,11 +10,10 @@ DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
 
 def get_playset():
     question_number = randint(MIN_RANDOM_NUMBER, MAX_RANDOM_NUMBER)
-    match (question_number % 2):
-        case 0:
-            correct_answer = 'yes'
-        case 1:
-            correct_answer = 'no'
+    if question_number % 2 == 0:
+        correct_answer = 'yes'
+    else:
+        correct_answer = 'no'
     playset = (question_number, correct_answer)
 
     return playset
